@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+/* 
+
+#navBar{
+  background-color: #fdf0d5;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+#logo h1{
+  color: #002855;
+}
+
+#container{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+} */
