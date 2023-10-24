@@ -24,12 +24,12 @@ form button:hover{
     box-shadow: 0px 0px;
 }
 
-#container{
+/* #container{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-}
+} */
 
 #card{
     border: 1px solid black;
@@ -81,23 +81,25 @@ form button:hover{
     justify-content: center;
     align-items: center;
     align-content: center;
-    width: 100%;
   }
   #card{
-    width: 500px;
+    width: 400px;
     height: auto;
     border-radius: 30px;
-    background-image: linear-gradient(40deg, #219EBC, #90e0ef, #34a0a4);
+    background-image: linear-gradient(40deg, #219EBC, #90e0ef, #34a0a4, #444);
   }
 
   #know-more button{
+    border: 1px solid black;
     border-radius: 5px;
-    padding: 20px;
+    padding: 10px;
     font-size: 1.2em;
     background-color: transparent;
     cursor: pointer;
+    transition: 150ms ease-in-out;
   }
 
   #know-more button:hover{
-    backgr
+    /* background-image: linear-gradient(to right, #9ad1d4, #80ced7, #007ea7); */
+    box-shadow: 0px 0px 10px 0px black;
   }
