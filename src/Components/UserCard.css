@@ -1,0 +1,86 @@
+#nav-bar{
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #023047;
+}
+
+#nav-bar #logo{
+  color: white;
+  font-size: 1.2em;
+  font-family: 'Roboto Slab', serif;
+}
+
+#nav-bar #srch form input{
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 10px;
+  border: 1px solid #023047;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+#nav-bar #srch button{
+  padding: 11.5px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-size: 1em;
+  border: 1px solid #023047;
+  cursor: pointer;
+}
+
+#container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 150px;
+
+}
+
+#card{
+  border: 1px solid black;
+  border-radius: 10px;
+  color: white;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-image:linear-gradient(to right, #36454F, #343434, #28282B) ;
+}
+
+#card img{
+  border-radius: 50%;
+  height: 10rem;
+}
+
+#card #details{
+  width: 100%;
+  text-align: center;
+}
+
+#card #details p{
+  font-size: 1em;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+#button button{
+  padding: 10px;
+  font-size: 1.2em;
+  background-image:linear-gradient(to right, #36454F, #343434, #28282B) ;
+  color: white;
+  cursor: pointer;
+  border: 0px solid black;
+  transition: 200ms ease-in-out;
+}
+
+#button button:hover{
+  color: white;
+  background-color: black;
+  box-shadow: 0px 4px 4px 4px white;
+}
