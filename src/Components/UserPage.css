@@ -27,7 +27,19 @@
 #repoFollow{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
+
+#repo{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+#follow{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
 }
 
 #repo li {
