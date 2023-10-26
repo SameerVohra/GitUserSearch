@@ -11,8 +11,7 @@
 
 #head-bar #image img{
     height: 200px;
-    border-bottom-left-radius: 30%;
-    border-bottom-right-radius: 30%;
+    border-radius: 50%;
 }
 
 #deatils{
