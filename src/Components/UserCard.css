@@ -5,6 +5,7 @@
   align-items: center;
   padding: 10px;
   background-color: #023047;
+  flex-wrap: wrap;
 }
 
 #nav-bar #logo{
