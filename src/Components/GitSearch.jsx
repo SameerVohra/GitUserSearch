@@ -21,7 +21,9 @@ export default function GitSearch() {
     return (
         <>
         <div id="nav-bar">
-            <div id="logo"><h1>GitHub User Search</h1></div>
+            <div id="logo"><h1>GitHub User Search</h1>
+            <p>&copy; Sameer Vohra</p>
+            </div>
             <div id="srch">
                 <form className="form" onSubmit={getUser}>
                     <label htmlFor="query" className="label"></label>
@@ -46,7 +48,7 @@ export default function GitSearch() {
                         </div>
                         <div id="details">
                             <p>Name: {users.name}</p>
-                            <p>Username: {users.login}</p>
+                            <p>Username: <span className="Uname">{users.login}</span></p>
                         </div>
                         <div id="button">
                             <Link to={`/userinfo/${users.login}`}><button>Know More</button></Link>
@@ -56,4 +58,5 @@ export default function GitSearch() {
             )}
         </>
     );
+    
 }
