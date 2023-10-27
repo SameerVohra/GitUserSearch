@@ -1,1 +1,1 @@
-# [Git User Search](https://git-user-search-iejzheflr-sameervohras-projects.vercel.app/)
+# [Git User Search](https://gitsearchuser.vercel.app/)
