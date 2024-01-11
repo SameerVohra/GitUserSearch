@@ -35,12 +35,13 @@ export default function UserInfo() {
 
     return (
         <>
+        <h3>Hello</h3>
 <div id="container">
         <div id="head-bar">
             <div id="image">
             <img src={userDetails.avatar_url} alt="" />
             </div>
-
+            
             <div id="deatils">
             <p>Username: {userDetails.login}</p>
             <p>Name: {userDetails.name}</p>
